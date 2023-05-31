@@ -1,0 +1,8 @@
+services:
+  - name: cors-anywhere
+    github:
+      repo: patrick-ddeus/cors-anywhere
+      branch: main
+    env:
+      - key: PORT
+        value: "8080"  # Altere a porta conforme necessário
